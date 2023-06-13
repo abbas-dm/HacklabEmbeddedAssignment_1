@@ -23,6 +23,7 @@ int length(Node *head){
     return count;
 }
 
+// 1.2.1
 Node* insertAtBeginning(Node* head, int data) {
     Node* newNode = createNode(data);
     newNode->next = head;
@@ -77,6 +78,7 @@ Node* insertAtPosition(Node* head, int position, int data){
     return head;
 }
 
+//1.2.2
 Node* deleteNodeByPosition(Node* head, int position) {
     if (head == NULL) {
         printf("Linked List is empty!\n");
@@ -106,6 +108,7 @@ Node* deleteNodeByPosition(Node* head, int position) {
     return head;
 }
 
+//1.2.3
 Node* deleteAllNodes(Node* head, int data) {
     Node* current = head;
     Node* prevNode = NULL;
@@ -128,6 +131,7 @@ Node* deleteAllNodes(Node* head, int data) {
     return head;
 }
 
+//1.2.5
 void displayList(Node* head) {
     if (head == NULL) {
         printf("List is empty!\n");
@@ -142,6 +146,7 @@ void displayList(Node* head) {
     printf("\n");
 }
 
+//1.2.4
 Node* deleteList(Node* head) {
     Node* current = head;
     Node* nextNode;
