@@ -1,0 +1,21 @@
+|~~~~~~~~~~~~~~~~~Question 2~~~~~~~~~~~~~~~~~~~|
+
+DataSheet - 
+https://www.ti.com/lit/ds/symlink/l293d.pdf
+
+2.1.1: What is the logic voltage level, 3.3V or 5V?
+Ans: The logic voltage level is “5V”.
+
+
+
+DataSheet - 
+https://www.mouser.in/ProductDetail/TDK-Lambda/CHVM1R5-12-1500N?qs=eP2BKZSCXI6y8K4kzuUaAg%3D%3D
+
+2.2.1: What is the input range of this DC/DC Converter?
+Ans: The input range of the given DC/DC converter is “10.8V to 16.5V”.
+
+2.2.2: Is it an isolated or non-isolated converter?
+Ans: The given DC/DC converter is a “non-isolated converter”.
+
+2.2.3: What is the wattage of the converter?
+Ans: The wattage of the given converter is varying between “1.4W to 3W”.
